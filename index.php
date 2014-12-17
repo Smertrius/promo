@@ -8,13 +8,19 @@
 <body lang="ru">
 <header>
 	<div class="size960">
-		<div id="logo"></div>
+		<div id="logo">
+			<a href="#">
+				<img src="images/logo.jpg" title="http://Аренда Спецтехники">
+				<h1>Аренда Спецтехники</h1>
+				<p>Услуги спецтехники в вашем городе</p>
+			</a>
+		</div>
 		<nav id="top">
 			<menu>
-				<li>О нас</li>
-				<li>Услуги</li>
-				<li>Тарифы</li>
-				<li>Контакты</li>
+				<a href=""><li>О нас</li></a>
+				<a href=""><li>Услуги</li></a>
+				<a href=""><li>Тарифы</li></a>
+				<a href=""><li>Контакты</li></a>
 			</menu>
 		</nav>
 	</div>
@@ -24,18 +30,20 @@
 		<aside>
 			<nav id="left">
 				<menu>
-					<li>О нас</li>
-					<li>Услуги</li>
-					<li>Тарифы</li>
-					<li>Контакты</li>
+					<a href=""><li>О нас</li></a>
+					<a href=""><li>Услуги</li></a>
+					<a href=""><li>Тарифы</li></a>
+					<a href=""><li>Контакты</li></a>
 				</menu>
 			</nav>
 		</aside>
 		<section>
 			<article>
-				<h2>Краткое описание нашей компании</h2>
+				<h1>Краткое описание нашей компании</h1>
 			</article>
 			<section id="about">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut risus nec urna pharetra scelerisque ac vel enim. Fusce vitae orci interdum, consequat neque ut, iaculis turpis. Mauris vehicula ex nec felis accumsan, eget hendrerit arcu posuere. Quisque eget risus faucibus, scelerisque ligula ut, dignissim mi. Nam nisi sapien, aliquet ac dapibus et, egestas ut sem. Duis convallis massa sit amet nisl sodales tempor. In cursus lacinia tempor. Pellentesque scelerisque turpis nec libero aliquet rutrum.</p>
+				<p>Vestibulum euismod eleifend ligula sit amet consectetur. Mauris maximus tincidunt nulla ac lobortis. Sed malesuada arcu eget dolor vehicula, quis dictum diam vestibulum. Fusce a pellentesque dui. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum sit amet sapien sed nibh blandit imperdiet bibendum nec diam. Quisque vitae mi lectus. Phasellus eleifend, est et ornare blandit, sem sapien varius leo, eget dapibus nisi leo ac augue.</p>
 				<iframe></iframe>
 			</section>
 			<section id="services">
