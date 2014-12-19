@@ -16,16 +16,16 @@
 			</a>
 		</div>
 		<nav id="top">
-			<a href=""><li id="fl"><span>О нас</span></li></a>
-			<a href=""><li><span>Услуги</span></li></a>
-			<a href=""><li><span>Тарифы</span></li></a>
-			<a href=""><li><span>Контакты</span></li></a>
+			<a href="#about"><li id="fl"><span>О нас</span></li></a>
+			<a href="#services"><li><span>Услуги</span></li></a>
+			<a href="#tariffs"><li><span>Тарифы</span></li></a>
+			<a href="#contacts"><li><span>Контакты</span></li></a>
 		</nav>
 	</div>
 </header>
 <div id="content">
 	<div class="size960" id="s960">
-		<section id="firstSec">
+		<section class="s890">
 			<article>
 				<h1>Краткое описание нашей компании</h1>
 			</article>
@@ -43,12 +43,15 @@
 			</section>
 		</section>
 		<footer>
-			<nav id="bottom">
-				<a href=""><li><span>О нас</span></li></a>
-				<a href=""><li><span>Услуги</span></li></a>
-				<a href=""><li><span>Тарифы</span></li></a>
-				<a href=""><li><span>Контакты</span></li></a>
-			</nav>
+			<div class="s890">
+				<div id="copy"><span>&copy; Все права защищены, </span> <?php echo date(Y);?></div>
+				<nav id="bottom">
+					<a href="#about"><li><span>О нас</span></li></a>
+					<a href="#services"><li><span>Услуги</span></li></a>
+					<a href="#tariffs"><li><span>Тарифы</span></li></a>
+					<a href="#contacts"><li><span>Контакты</span></li></a>
+				</nav>
+			</div>
 		</footer>
 	</div>
 </div>
