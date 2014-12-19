@@ -4,6 +4,20 @@
 	<meta charset="utf-8" />
 	<title>Promo site</title>
 	<link rel="stylesheet" href="css/style.css" type="text/css"/>
+	<script type="text/javascript">
+$(document).ready(function() {
+   $('a[href^="#"]').click(function () { 
+     elementClick = $(this).attr("href");
+     destination = $(elementClick).offset().top;
+     if($.browser.safari){
+       $('body').animate( { scrollTop: destination }, 1100 );
+     }else{
+       $('html').animate( { scrollTop: destination }, 1100 );
+     }
+     return false;
+   });
+ });
+</script>
 </head>
 <body lang="ru">
 <header>
@@ -55,5 +69,6 @@
 		</footer>
 	</div>
 </div>
+
 </body>
 </html>
