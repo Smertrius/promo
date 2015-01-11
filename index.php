@@ -11,9 +11,7 @@
 	<div class="size960">
 		<div id="logo">
 			<a href="#">
-				<img src="images/logo.jpg" title="http://Аренда Спецтехники" />
-				<h1>Аренда Спецтехники</h1>
-				<p id="logo2">Услуги спецтехники в вашем городе</p>
+				<img src="images/logo.png" title="http://Аренда Спецтехники" />
 			</a>
 		</div>
 		<nav id="top">
